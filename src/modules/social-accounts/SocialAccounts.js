@@ -1,12 +1,13 @@
-import React from 'react';
-import { IconButton, Stack } from '@mui/material';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import MailIcon from '@mui/icons-material/Mail';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import useSiteMetadata from '../seo/useSiteMetadata';
+import React from "react";
+import { IconButton, Stack } from "@mui/material";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import MailIcon from "@mui/icons-material/Mail";
+import FilePresentIcon from "@mui/icons-material/FilePresent";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import useSiteMetadata from "../seo/useSiteMetadata";
 
-function SocialAccountLink({ ['aria-label']: ariaLabel, url, icon }) {
+function SocialAccountLink({ ["aria-label"]: ariaLabel, url, icon }) {
   if (!url) {
     return null;
   }
@@ -32,6 +33,11 @@ function SocialAccounts() {
 
   return (
     <Stack spacing={0.5} direction="row" justifyContent="center">
+      <SocialAccountLink
+        icon={FilePresentIcon}
+        url="/assets/resume.pdf"
+        aria-label="Resume"
+      />
       <SocialAccountLink
         icon={TwitterIcon}
         url={`https://twitter.com/${twitterUsername}`}

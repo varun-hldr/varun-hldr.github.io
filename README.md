@@ -1,6 +1,6 @@
 # varunhaldhar-blog
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/63521b78-612e-4a2f-a409-3fa8009e7f3b/deploy-status)](https://app.netlify.com/sites/frosty-perlman-9da1cb/deploys) &nbsp;
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bad2a62d-0b3d-4a84-824a-5990e34c0237/deploy-status)](https://app.netlify.com/sites/varun-hldr/deploys) &nbsp;
 
 Personal website and blog, built with [Gatsby][gatsby] and [Netlify CMS][netlifycms].  
 Live site is **[here](https://imvarun.dev/)**.
