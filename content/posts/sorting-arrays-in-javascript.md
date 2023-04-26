@@ -2,8 +2,10 @@
 title: Sorting Arrays in JavaScript
 date: 2020-12-13 05:20
 description: Tips for sorting arrays of numbers, strings and objects in JavaScript
-featuredImage: /assets/tolga-ulkan-9k36QqhA0cU-unsplash.jpg
-featuredImageCaption: Photo by <a href="https://unsplash.com/@tolga__?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tolga Ulkan</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+featuredImage: /assets/pexels-pixabay-270404.jpg
+featuredImageCaption: ' <a
+  href="https://www.pexels.com/photo/black-background-with-text-overlay-screengrab-270404/">Black
+  Background With Text Overlay Screengrab</a>'
 ---
 
 JavaScript can be tricky sometimes. We know the times when we try something so easy like sorting an array, but it ends up so wrong and breaks our code.
