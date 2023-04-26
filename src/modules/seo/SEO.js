@@ -39,6 +39,7 @@ export default function SEO({
       <link rel="icon" href="/favicon.ico" />
       <link rel="canonical" href={seo.url} />
       <meta name="theme-color" content="#fff" />
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
       <meta name="google-site-verification" content={googleSiteVerification} />
 

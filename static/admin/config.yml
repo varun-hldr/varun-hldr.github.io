@@ -2,11 +2,11 @@ backend:
   name: git-gateway
   branch: main
   commit_messages:
-    create: 'Create {{collection}} “{{slug}}”'
-    update: 'Update {{collection}} “{{slug}}”'
-    delete: 'Delete {{collection}} “{{slug}}”'
-    uploadMedia: '[skip ci] Upload “{{path}}”'
-    deleteMedia: '[skip ci] Delete “{{path}}”'
+    create: "Create {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Delete {{collection}} “{{slug}}”"
+    uploadMedia: "[skip ci] Upload “{{path}}”"
+    deleteMedia: "[skip ci] Delete “{{path}}”"
 
 # Uncomment local_backend when you need to develop in your local
 # local_backend: true # run npx netlify-cms-proxy-server for local testing
@@ -21,8 +21,8 @@ collections:
     description: >
       Create awesome content here.
     folder: content/posts
-    slug: '{{slug}}'
-    summary: '{{title}} — {{year}}/{{month}}/{{day}}'
+    slug: "{{slug}}"
+    summary: "{{title}} — {{year}}/{{month}}/{{day}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - label: Title
@@ -42,7 +42,7 @@ collections:
         name: featuredImage
         widget: image
         required: false
-        tagname: ''
+        tagname: ""
       - label: Featured Image Caption
         name: featuredImageCaption
         widget: text
@@ -61,7 +61,7 @@ collections:
           - label: Skills
             name: skills
             widget: list
-            summary: '{{name}}'
+            summary: "{{name}}"
             fields:
               - name: icon
                 label: Icon
@@ -70,61 +70,61 @@ collections:
               - name: name
                 label: Name
                 widget: string
-      - label: 'Experience'
-        name: 'experience'
+      - label: "Experience"
+        name: "experience"
         file: content/common/experience.md
         fields:
-          - label: 'Experience'
-            name: 'experience'
-            widget: 'list'
-            summary: '{{dateRange}}: {{jobTitle}}'
+          - label: "Experience"
+            name: "experience"
+            widget: "list"
+            summary: "{{dateRange}}: {{jobTitle}}"
             fields:
-              - name: 'dateRange'
-                label: 'Date Range'
-                widget: 'string'
-              - name: 'jobTitle'
-                label: 'Job Title'
-                widget: 'string'
-              - name: 'company'
-                label: 'Company'
-                widget: 'string'
-              - name: 'description'
-                label: 'Description'
-                widget: 'string'
+              - name: "dateRange"
+                label: "Date Range"
+                widget: "string"
+              - name: "jobTitle"
+                label: "Job Title"
+                widget: "string"
+              - name: "company"
+                label: "Company"
+                widget: "string"
+              - name: "description"
+                label: "Description"
+                widget: "string"
                 required: false
-              - name: 'location'
-                label: 'Location'
-                widget: 'string'
+              - name: "location"
+                label: "Location"
+                widget: "string"
                 required: false
-      - label: 'Education'
-        name: 'education'
+      - label: "Education"
+        name: "education"
         file: content/common/education.md
         fields:
           - label: Education
             name: education
-            widget: 'list'
-            summary: '{{school}} - {{fieldOfStudy}}'
+            widget: "list"
+            summary: "{{school}} - {{fieldOfStudy}}"
             fields:
-              - name: 'startYear'
-                label: 'Start Year'
-                widget: 'string'
-              - name: 'endYear'
-                label: 'End Year'
-                widget: 'string'
-              - name: 'school'
-                label: 'School'
-                widget: 'string'
-              - name: 'fieldOfStudy'
-                label: 'Field of Study'
-                widget: 'string'
+              - name: "startYear"
+                label: "Start Year"
+                widget: "string"
+              - name: "endYear"
+                label: "End Year"
+                widget: "string"
+              - name: "school"
+                label: "School"
+                widget: "string"
+              - name: "fieldOfStudy"
+                label: "Field of Study"
+                widget: "string"
                 required: false
-              - name: 'grade'
-                label: 'Grade'
-                widget: 'string'
+              - name: "grade"
+                label: "Grade"
+                widget: "string"
                 required: false
-              - name: 'location'
-                label: 'Location'
-                widget: 'string'
+              - name: "location"
+                label: "Location"
+                widget: "string"
                 required: false
       - label: Projects
         name: projects
@@ -133,7 +133,7 @@ collections:
           - label: Projects
             name: projects
             widget: list
-            summary: '{{title}}'
+            summary: "{{title}}"
             fields:
               - name: title
                 label: Title
@@ -174,15 +174,15 @@ collections:
             name: featuredImage
             widget: image
             required: false
-          - label: 'Body'
-            name: 'body'
-            widget: 'markdown'
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
   - name: settings
     label: Settings
     files:
       - name: general
         label: General
-        file: 'src/util/site.json'
+        file: "src/util/site.json"
         fields:
           - label: meta
             name: meta
@@ -195,7 +195,7 @@ collections:
               - widget: string
                 name: titleTemplate
                 label: Title Template
-                default: '%s'
+                default: "%s"
                 required: true
               - widget: string
                 name: siteUrl
@@ -204,7 +204,7 @@ collections:
               - widget: text
                 name: description
                 label: Description
-                default: ''
+                default: ""
                 required: false
               - widget: image
                 name: image
