@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imvarun.dev/sitemap/sitemap-index.xml

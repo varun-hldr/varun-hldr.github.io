@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "siteUrl": "https://imvarun.dev/",
+    "twitterUsername": "haldhar_varun",
+    "titleTemplate": "%s | Varun Haldhar",
+    "linkedinUsername": "varun-haldhar",
+    "mail": "haldharvarun@gmail.com",
+    "title": "Varun Haldhar",
+    "githubUsername": "varun-hldr",
+    "image": "/assets/varunhaldhar.jpg",
+    "description": "Varun Haldhar's personal website and blog about software development. Built with Gatsby and Netlify CMS.",
+    "googleSiteVerification": "WH91shXE9qMhnz2Sh0ZBKqqv6OEL8-z9FX940vB9cCg"
+  }
+}
