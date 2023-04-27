@@ -4,7 +4,14 @@ date: 2020-10-12 11:51
 description: State management for React applications is a concept with a lot of
   alternative solutions. We have things like redux, mobx, mobx-state-tree,
   apollo-client and many more. They all have many different…
-featuredImage: /assets/1_st54r7_l-6gftrzfygd0eq.jpg
+featuredImage: /assets/lautaro-andreani-xkbaqlcqeb4-unsplash.jpg
+featuredImageCaption: "Photo by <a
+  href=\"https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=r\
+  eferral&utm_content=creditCopyText\">Lautaro Andreani</a> on <a
+  href=\"https://unsplash.com/photos/xkBaqlcqeb4?utm_source=unsplash&utm_medium\
+  =referral&utm_content=creditCopyText\">Unsplash</a>
+
+  \  "
 ---
 
 State management for React applications is a concept with a lot of alternative solutions. We have things like [redux](https://redux.js.org/), [mobx](https://mobx.js.org/README.html), [mobx-state-tree](https://mobx-state-tree.js.org/intro/philosophy), [apollo-client](https://www.apollographql.com/docs/react/) and many more. They all have many different and similar approaches, learning curves, complexities and simplicities. They are very very useful for many situations. But I think, they add a lot of unnecessary layers for a lot of applications. Because, you already have a state management solution and it’s built-in to React. It’s React itself…
