@@ -33,7 +33,7 @@ projects:
       - name: mongoDB
       - name: scss
   - title: QuizUP
-    description: A Quiz web app built with ReactJS, and MongoDB
+    description: The QuizUP a web app built with ReactJS, NodeJs and MongoDB
     featuredImage: /assets/project-quizup.png
     techStack:
       - name: JavaScript
