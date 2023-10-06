@@ -4,6 +4,7 @@ projects:
     description: Led the development of a URL shortening to enhance link management
       and tracking for a web marketing campaign
     featuredImage: /assets/card.png
+    techStack:
       - name: TypeScript
       - name: NextJS
       - name: NodeJS
