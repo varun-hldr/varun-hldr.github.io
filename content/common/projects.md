@@ -3,8 +3,10 @@ projects:
   - title: Fall2
     description: Led the development of a URL shortening to enhance link management
       and tracking for a web marketing campaign
-    demoUrl: https://fall2.in
     featuredImage: /assets/card.png
+      - name: TypeScript
+      - name: NextJS
+      - name: NodeJS
   - title: RPS League
     description: The first Rock Paper Scissors league in the Blockchain world.
     featuredImage: /assets/project-rps-league.png
